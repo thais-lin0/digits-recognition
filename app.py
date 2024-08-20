@@ -8,7 +8,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the model
-model = joblib.load('rf.pkl')
+model = joblib.load('xgb_tuned.pkl')
 
 def preprocess_image(image):
     """
